@@ -1,20 +1,18 @@
 @charset "utf-8";
 body {
 	width:95%;
-	font-family: 'Source Sans Pro', sans-serif;
 	display: block;
-	margin-right: 10px;
 	border: 1px solid #ccc;
-
+	margin-left:auto;
+	margin-right:auto;
 }
 a:link {
 	text-decoration: none;
 }
 
 .center{
-	margin-left: auto;
-	margin-right: auto;
-	width:95%;
+	margin-left: 5;
+	margin-right: 5;
 	}
 .headimg {
 	background-size: contain;
@@ -24,8 +22,7 @@ a:link {
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
-
-#header {
+#logo {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 	text-indent: 10px;
 	text-transform: uppercase;
@@ -35,6 +32,8 @@ a:link {
 	font-size: 50px;
 	font-weight: 300;
 	font-style: italic;
+	position: absolute;
+	top: 10px;
 }
 #logoimg   {
 	min-width: 20px;
@@ -42,7 +41,6 @@ a:link {
 	width: 100%;
 	min-height: 20px;
 	padding-top: 5px;
-	position: absolute;
 
 }
 
@@ -75,7 +73,7 @@ a:link {
 	left: 30%;
 	visibility: visible;
 	z-index: 2;
-	top: 76px;
+	top: 77px;
 }
 #navigation ul{
 	list-style: none;
@@ -170,12 +168,12 @@ a:link {
 
 #thinline {
 	background-color: #990066;
-	width: 100%;
 	height: 7px;
 	max-width: 1400px;
 	min-width: 800px;
-	position: relative;
-	top: 103px;
+	position: absolute;
+	top: 112px;
+	width: 95%;
 }
 #searchsection {
 	background-color: #3399FF;
@@ -210,17 +208,17 @@ a:link {
 	text-align: center;
 	line-height: 45px;
 	font-weight: bold;
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 	font-size: 11pt;
 }
 
 #searchsection #search #textstyle {
 	color: #FFFFFF;
 	font-weight: bold;
-	font-size: 13px;
+	font-size: 11pt;
 
 }
-#searchsection #search #select1, #searchsection #search #select2 , #searchsection #search #select3 {
+#searchsection #search #select1  {
 	border-radius: 7px;
 	color: #000000;
 	width: 100%;
@@ -228,16 +226,28 @@ a:link {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	background-color: #FFFFFF;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
-
+#searchsection #search #select2  {
+	width: 100%;
+	color: #000000;
+	border-radius: 7px 5px 5px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	border: medium groove #CCCCCC;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background-color: #FFFFFF;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
 #searchsection #search #Datepicker1 {
 	width: 95%;
 	border: medium groove #CCCCCC;
 	border-radius: 7px;
-	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 
 }
 #searchsection #search #submitstyle   {
